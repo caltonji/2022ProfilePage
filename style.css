@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+
+header {
+    background-color: #FF5722;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* display like an app icon, with rounded corners and a border
+*/
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+/* make the div with id profile_image max 300 px. Center the image */
+#profile_image {
+    margin: auto;
+    max-width: 300px;
+}
+
+/*  make the div with id profile_text max 800px. Center the text */
+#profile_text {
+    max-width: 700px;
+    margin: auto;
+}
+
+#profile_header {
+    text-align: center;
+}
+
+#profile_links {
+    text-align: center;
+}
